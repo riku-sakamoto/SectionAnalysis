@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+button.exe_button {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 20px 50px;
+}

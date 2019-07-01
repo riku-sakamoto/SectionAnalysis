@@ -1,0 +1,32 @@
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- インポートする順番を変えると適切に表示されないので注意 -->
+        <meta charset="UTF-8">
+        <script src="static/js/jquery-3.3.1.min.js"></script>
+        <script src="static/js/handsontable.full.js"></script> 
+        <link rel="stylesheet" href="static/css/handsontable.full.min.css">
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+
+    <div align="center">
+    <font size=15>ファイバーモデル</font>
+    </div><br>
+    
+    <div id="grid_license_fee"></div><br>
+
+    <button id="calc_start" class="exe_button" >計算開始</button><br>
+    
+    <div id="license_plot"></div>
+
+    <div id="show_sum_fee_for_day"></div>
+    <div id="show_sum_fee_for_month"></div>
+    <div id="show_sum_fee_for_year"></div>
+    <!-- <font size="10">ライセンス使用料（/日）：{{sum_fee}}</font> -->
+    <!-- <script>window.$ = window.jQuery = require('jquery');</script> -->
+    <script src="static/js/script.js"></script>
+    </body>
+</html>
+{% endblock %}
